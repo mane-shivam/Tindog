@@ -1,0 +1,181 @@
+#title {
+    text-align: left;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+
+.big-heading {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.45;
+}
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+
+/* Navigation bar */
+
+
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.35rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/* download-buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-mockup {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+}
+
+.positioning {
+    position: relative;
+}
+
+/* features  */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Testimonials section */
+
+#testimonials,
+#press {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-text {
+    font-size: 2.25rem;
+}
+
+.testimonials-image {
+    width: 13%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 13%;
+    margin: 10px 20px 50px 0;
+}
+
+
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    height: 500px;
+    padding: 7% 20%;
+
+}
+
+#cta .big-heading {
+    font-size: 3.25rem;
+}
+
+
+
+
+#footer {
+    padding: 2% 15%;
+}
+
+.footer-icon {
+    margin: 20px 10px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .iphone-mockup {
+        position: static;
+        transform: rotate(0);
+    }
+
+
+}
